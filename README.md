@@ -70,10 +70,10 @@ double dist = sqrt(pow(x1 - x2, 2) + pow(y1-y2, 2));
 ```
 
 # Code evaluation
-Open the terminal and navigate to the folder that contains this milestone. Assuming you have pulled the code inside of `/home/student/project01-tuffy` and you are currently in `/home/student` you can issue the following commands
+Open the terminal and navigate to the folder that contains this milestone. Assuming you have pulled the code inside of `/home/student/project-milestone-2-tuffy` and you are currently in `/home/student` you can issue the following commands
 
 ```
-cd project01-tuffy
+cd project-milestone-2-tuffy
 ```
 
 Use the `g++` command to compile your code and the `./` command to run it. The sample commands below shows how you would compile code save in `quizgen.cc` and into the executable file `quizgen`. Make sure you use the correct filenames required in this problem.  Take note that if you make any changes to your code, you will need to compile it first before you see changes when running it.
@@ -103,22 +103,22 @@ make all
     ```
     git add .
     ```
-    
+
 1. Once everything is in the staging area, we use the `commit` command to tell git that we have added everything we need into the staging area.
 
     ```
     git commit
     ```
-    
+
 1. In case it asks you  to configure global variables for an email and name, just copy the commands it provides then replace the dummy text with your email and Github username.
 
     ```
     git config --global user.email "tuffy@csu.fullerton.edu"
     git config --global user.name "Tuffy Titan"
     ```
-    
+
     When you're done, make sure you type `git commit` again.   
-    
+
 1. Git will ask you to describe what you have added to the staging area. By default, you will use a command-line based editor called *nano*. Go ahead and provide a description then press <kbd>Ctrl</kbd> + <kbd>x</kbd> to exit. Press <kbd>Y</kbd> to confirm that you want to make changes and then press <kbd>Enter</kbd>.
 
 1. Lets push all changes to the Github repository using git's `push` command. Provide your Github username and password when you are asked.
@@ -126,5 +126,5 @@ make all
     ```
     git push
     ```
-    
+
 1. When you finish the exercise, go back to Titanium and click on the `Add submission` button in the project milestone page. Provide a short message in the text area such as "finished milestone" and click on `Save changes`. Finally click on `Submit assignment` to inform your instructor that you are done.
