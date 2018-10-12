@@ -17,12 +17,12 @@ public:
   string get_text() { return _text; }
   string get_answer() { return _answer; }
 
-  void create_question() {
-    cout << "Please enter your question: ";
-    getline(cin, _text);
-    cout << "Please enter the answer: ";
-    getline(cin, _answer);
-    cout << "Question added!" << endl;
-  };
+  void create_question(); //{
+    // cout << "Please enter your question: ";
+    // getline(cin, _text);
+    // cout << "Please enter the answer: ";
+    // getline(cin, _answer);
+    // cout << "Question added!" << endl;
+  //};
 };
 #endif
