@@ -6,6 +6,7 @@
 #include <string>
 using namespace std;
 
+// Definition of the class Question
 class Question {
 private:
   string _text;
