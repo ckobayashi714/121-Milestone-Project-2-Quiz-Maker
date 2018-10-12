@@ -18,10 +18,10 @@ int main() {
 
   do {
     cout << endl;
-    cout << "What would you like to do?" << endl;
-    cout << "a. Create a question" << endl;
-    cout << "b. Quit" << endl;
-    cout << "Choice: ";
+    cout << "What would you like to do?\n"
+         << "a. Create a question\n"
+         << "b. Quit\n"
+         << "Choice: ";
     cin >> choice;
     cin.ignore();
     switch (choice) {
