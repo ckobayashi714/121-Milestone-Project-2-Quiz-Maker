@@ -1,0 +1,17 @@
+---
+MainSourceFile:  /home/student/project-milestone-2-ckobayashi714/quiz.cpp
+Diagnostics:     
+  - DiagnosticName:  modernize-loop-convert
+    Message:         use range-based for loop instead
+    FileOffset:      134
+    FilePath:        quizgen.cpp
+    Replacements:    
+      - FilePath:        quizgen.cpp
+        Offset:          138
+        Length:          25
+        ReplacementText: '(auto & i : qArray)'
+      - FilePath:        quizgen.cpp
+        Offset:          186
+        Length:          9
+        ReplacementText: i
+...
