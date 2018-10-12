@@ -17,8 +17,8 @@ int main() {
   cout << "Welcome to QuizMaker\n";
 
   do {
-    cout << endl;
-    cout << "What would you like to do?\n"
+    cout << "\n"
+         << "What would you like to do?\n"
          << "a. Create a question\n"
          << "b. Quit\n"
          << "Choice: ";
@@ -27,7 +27,7 @@ int main() {
     switch (choice) {
     case 'a':
     case 'A':
-      cout << endl;
+      cout << "\n";
       qArray[i] = create_question();
       i++;
       break;
@@ -35,11 +35,10 @@ int main() {
     case 'B':
       break;
     default:
-      cout << endl;
-      cout << "Invalid option\n";
+      cout << "\nInvalid option\n";
     }
   } while (choice != 'b' && choice != 'B');
-  cout << endl;
-  cout << "Thank you for using QuizMaker!" << endl;
+  cout << "\n"
+       << "Thank you for using QuizMaker!\n";
   return 0;
 }
